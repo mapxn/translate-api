@@ -1,6 +1,6 @@
 {
   "version": 2,
   "rewrites": [
-      {"source": "[^index.html](.*)", "destination": "https://translate.googleapis.com/$1"}
+      {"source": "/api/(.*)", "destination": "https://translate.googleapis.com/$1"}
   ]
 }
